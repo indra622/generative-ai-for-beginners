@@ -2,17 +2,17 @@
 
 1) 본 repo는 Microsoft에서 Github을 통해 공개한 [Generative AI For Beginners](https://github.com/microsoft/generative-ai-for-beginners)의 한국어 번역본입니다.
 
-2) 한국인 학습자를 위해 개인 공부를 겸해 번역합니다.
+2) Microsoft에서 관리하는 repo(source repo)에 번역을 올릴 수 있는 공간이 있지만, 한국어 원어민이 편안하게 학습할 수 없다고 판단했습니다.
 
-3) Source repo에서는 영어 이외의 언어들은 하나의 코스 당 존재하는 translation이라는 폴더 안에 언어 별로 구분되어 있습니다. 예를 들어, [Course 01](https://github.com/microsoft/generative-ai-for-beginners/tree/main/01-introduction-to-genai)의 중국어 버전을 읽으려면 01-introduction-to-genai -> translation -> cn -> README.md 의 복잡한 과정을 거쳐 읽어야 합니다.
+3) Source repo에서는 영어 이외의 언어들은 하나의 코스 당 존재하는 translation이라는 폴더 안에 언어 별로 구분되어 있습니다. 예를 들어, [01-introduction-to-genai](https://github.com/microsoft/generative-ai-for-beginners/tree/main/01-introduction-to-genai)의 중국어 버전을 읽으려면 01-introduction-to-genai -> translation -> cn -> README.md 의 복잡한 과정을 거쳐 읽어야 합니다.
 
-4) 위와 같은 방식이 한국어 원어민이 편안하게 학습하기에는 부적합하다고 판단되어, 한국인 학습자에게 적합하도록 영어 원문 부분을 한글로 번역하기로 했습니다.
+4) 따라서, source repo와 별개로 번역을 하기로 했습니다. 작업 결과물은 source repo에 pull request하는 것이 아닌 별도 repo로 유지할 계획입니다.
 
-5) 본 작업 결과물은 source repo에 pull request하는 것이 아닌 별도 repo로 유지할 계획입니다.
+5) 개인 공부를 겸하기 때문에 번역기를 사용하지 않으며, 단순 번역이 목적이 아닌, 내용을 이해하는 것이 최우선 목표이기 때문에 한국어에 맞게 의역을 다수 섞어 작업합니다.
 
-6) 개인 공부를 겸하기 때문에 번역기를 사용하지 않으며, 단순 번역이 목적이 아닌, 내용을 이해하는 것이 최우선 목표이기 때문에 한국어에 맞게 의역을 다수 섞어 작업합니다.
+6) 한국어로 번역 가능한 단어는 한국어를 최대한 사용하나, 공부할 때 검색이 쉽도록 주요 키워드는 영어 단어를 살려서 작업합니다.
 
-7) 한국어로 번역 가능한 단어는 한국어를 최대한 사용하나, 공부할 때 검색이 쉽도록 주요 키워드는 영어 단어를 살려서 작업합니다.
+7) 번역 속도는 작성자의 남는 시간과 영어 능력에 달렸습니다.
 
 ---
 
