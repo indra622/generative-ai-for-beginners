@@ -1,49 +1,72 @@
-# Getting Started with this course
+<!-- # Getting Started with this course -->
+# 과정 시작하기
 
-We are very excited for you to start this course and see what you get inspired to build with Generative AI!
+<!-- We are very excited for you to start this course and see what you get inspired to build with Generative AI! -->
+저희는 독자들이 이 과정을 시작해서 생성형 AI에 대한 어떤 영감을 얻기를 바랍니다.
 
-To make your time successful, we have created this page that outlines any setup steps, technical requirements, and how to get help when you need it.
+<!-- To make your time successful, we have created this page that outlines any setup steps, technical requirements, and how to get help when you need it. -->
+성공적인 과정 실습을 위해, 저희는 여기에 설치, 기술적 배경지식에 대한 개요와 함께 도움이 될만한 내용을 넣었습니다.
 
-## Setup Steps
+<!-- ## Setup Steps -->
+## 설치 과정
 
-To start taking this course, you will need to complete the following steps.
+<!-- To start taking this course, you will need to complete the following steps. -->
+이 과정을 시작하기 위해서 아래 과정을 완료해야 합니다.
 
-### 1. Fork this Repo
+<!-- ### 1. Fork this Repo -->
+### 1. 레포지토리를 fork하세요
 
-[Fork this entire repo](https://github.com/microsoft/generative-ai-for-beginners/fork?WT.mc_id=academic-105485-koreyst) to your own GitHub account to be able to change any code and complete the challenges. You can also [star (🌟) this repo](https://docs.github.com/en/get-started/exploring-projects-on-github/saving-repositories-with-stars?WT.mc_id=academic-105485-koreyst) to find it and related repos easier.
+<!-- [Fork this entire repo](https://github.com/microsoft/generative-ai-for-beginners/fork?WT.mc_id=academic-105485-koreyst) to your own GitHub account to be able to change any code and complete the challenges. You can also [star (🌟) this repo](https://docs.github.com/en/get-started/exploring-projects-on-github/saving-repositories-with-stars?WT.mc_id=academic-105485-koreyst) to find it and related repos easier. -->
 
-### 2. Create a codespace
+이 레포지토리 전체를 자신의 GitHub 계정에 포크하면 (필요 시) 코드를 변경하면서 실습을 진행할 수 있습니다. 그리고 star를 눌러 주시면 관련된 저장소를 더 쉽게 찾을 수 있습니다.
 
-To avoid any dependency issues when running the code, we recommend running this course in a GitHub codespace.
+<!-- ### 2. Create a codespace -->
+### 2. 코드스페이스를 만드세요
 
-This can be created by selecting the `Code` option on your forked version of this repo and selecting the **Codespaces** option.
+<!-- To avoid any dependency issues when running the code, we recommend running this course in a GitHub codespace. -->
+의존성 문제를 피하기 위해서 Github 코드스페이스에서 작업하는 것을 추천합니다.
 
-### 3. Storing Your API Keys
+<!-- This can be created by selecting the `Code` option on your forked version of this repo and selecting the **Codespaces** option. -->
+포크한 레포에서 'Code' 옵션을 설정해서 만들고 'Codespaces'옵션을 선택하세요.
 
-Keeping your API keys safe and secure is important when building any type of application. We encourage you not to store any API keys directly in the code you are working with as committing those details to a public repository could result in unwanted costs and issues.
+<!-- ### 3. Storing Your API Keys -->
+### 3. 당신의 API 키를 저장하세요
 
-![Dialog showing buttons to create a codespace](./images/who-will-pay.webp?WT.mc_id=academic-105485-koreyst)
+<!-- Keeping your API keys safe and secure is important when building any type of application. We encourage you not to store any API keys directly in the code you are working with as committing those details to a public repository could result in unwanted costs and issues. -->
+당신의 API키를 안전하게 보관하세요. 보안은 어떤 application을 구축할때도 중요한 요소입니다. 예기치못한 비용이나 다른 문제가 발생하지 않도록 API 키를 공용 레포지토리에 있는 코드에 바로 기입해 놓지 마세요.
 
-## How to Run locally on your computer
+![Dialog showing buttons to create a codespace](./images/who-will-pay.webp)
 
-To run the code locally on your computer, you would need to have some version of [Python installed](https://www.python.org/downloads/?WT.mc_id=academic-105485-koreyst).
+<!-- ## How to Run locally on your computer -->
+## 로컬에서 실행시키는 방법
 
-To then use the repository, you need to clone it:
+<!-- To run the code locally on your computer, you would need to have some version of [Python installed](https://www.python.org/downloads/?WT.mc_id=academic-105485-koreyst). -->
+
+로컬에서 실행시키고자 한다면 특정 버전의 [python](https://www.python.org/downloads/)이 설치되어 있어야 합니다.
+
+
+<!-- To then use the repository, you need to clone it: -->
+그 이후에 레포지토리를 사용하기 위해서 clone을 할 필요가 있습니다.
 
 ```shell
 git clone https://github.com/microsoft/generative-ai-for-beginners
 cd generative-ai-for-beginners
 ```
 
-Now you have everything checked out and can start learning and work with the code.
+<!-- Now you have everything checked out and can start learning and work with the code. -->
+이제 코드를 실행하며 학습할 수 있게 되었습니다!
 
-### Installing miniconda (optional step)
+<!-- ### Installing miniconda (optional step) -->
+### miniconda 설치 (선택사항)
 
-There are advantages to installing  **[miniconda](https://conda.io/en/latest/miniconda.html?WT.mc_id=academic-105485-koreyst)** - it is rather lightweight installation that supports `conda` package manager for different Python **virtual environments**. `conda` makes it easy to install and switch between different Python versions and packages, and also to install packages that are not available via `pip`.
+<!-- There are advantages to installing  **[miniconda](https://conda.io/en/latest/miniconda.html?WT.mc_id=academic-105485-koreyst)** - it is rather lightweight installation that supports `conda` package manager for different Python **virtual environments**. `conda` makes it easy to install and switch between different Python versions and packages, and also to install packages that are not available via `pip`. -->
+miniconda를 설치할 때 장점은 다음과 같습니다. 서로 다른 가상 환경(virtual environments)의 python을 사용할 수 있는 `conda`를 사용하는 경량화 버전입니다. `conda`는 쉽게 설치가 가능하고 서로 다른 python 버전을 사용 가능하며, `pip`에서 사용 불가능한 패키지를 설치할 수 있습니다.
 
-After you install miniconda, you need to clone the repository (if you haven't already done so) and create a virtual environment to be used for this course:
+<!-- After you install miniconda, you need to clone the repository (if you haven't already done so) and create a virtual environment to be used for this course: -->
+miniconda를 설치한 후에, 이 강의 코스를 위한 가상 환경을 만들 필요가 있습니다.
 
-Before running the below step, ensure that you first have an *environment.yml* file. The *environment.yml* file is used to create a conda environment with the necessary dependencies and can look like so:
+<!-- Before running the below step, ensure that you first have an *environment.yml* file. The *environment.yml* file is used to create a conda environment with the necessary dependencies and can look like so: -->
+다음 단계로 넘어가기 전에, 먼저 environment.yml 파일을 정의해야 합니다. 이 파일은 필요한 패키지들을 미리 가진 conda환경을 만드는 데 사용됩니다.
 
 ```yml
 name: <environment-name>
@@ -55,9 +78,11 @@ dependencies:
 - python-dotenv
 ```
 
-You can replace `<environment-name>` with the name of your conda environment, and `<python-version>` with the version of Python you want to use. Place your created *environment.yml* file in the *.devcontainer* folder of your repo.
+<!-- You can replace `<environment-name>` with the name of your conda environment, and `<python-version>` with the version of Python you want to use. Place your created *environment.yml* file in the *.devcontainer* folder of your repo. -->
+`<environment-name>`은 conda environment의 이름을 입력하면 되고, `<python-version>` 에는 사용하고자 하는 python version을 넣으면 됩니다. *environment.yml*파일은 레포지토리에 이미 만들어져 있는 *.devcontainer*에 넣으시면 됩니다.
 
-Now that you've hopefully created a *environment.yml* file, you can create a conda environment with the following command:
+<!-- Now that you've hopefully created a *environment.yml* file, you can create a conda environment with the following command: -->
+이제 *environment.yml* 파일이 만들어졌다면, conda environment를 아래 명령어를 통해 만들어 봅시다.
 
 
 ```bash
@@ -65,21 +90,31 @@ conda env create --name ai4beg --file .devcontainer/environment.yml
 conda activate ai4beg
 ```
 
-Refer to this link on creating a [conda environments](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html?WT.mc_id=academic-105485-koreyst) if you run into trouble.
+<!-- Refer to this link on creating a [conda environments](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html?WT.mc_id=academic-105485-koreyst) if you run into trouble. -->
+하다가 문제가 생겼다면 [conda environments](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) 를 참고하세요.
 
-### Using Visual Studio Code with Python Extension
 
-Probably the best way to use the curriculum is to open it in [Visual Studio Code](http://code.visualstudio.com/?WT.mc_id=academic-105485-koreyst) with [Python Extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python&WT.mc_id=academic-105485-koreyst).
+<!-- ### Using Visual Studio Code with Python Extension -->
+### Visual Studio Code의 Python Extension 사용하기
 
-> **Note**: Once you clone and open the directory in VS Code, it will automatically suggest you to install Python extensions. You would also have to install miniconda as described above.
+<!-- Probably the best way to use the curriculum is to open it in [Visual Studio Code](http://code.visualstudio.com/?WT.mc_id=academic-105485-koreyst) with [Python Extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python&WT.mc_id=academic-105485-koreyst). -->
+아마 이 커리큘럼은 [Visual Studio Code](http://code.visualstudio.com/)의 [Python Extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python)을 사용하는게 가장 좋은 방법일 것입니다.
 
-> **Note**: If VS Code suggests you to re-open the repository in container, you need to decline this to use local Python installation. 
+<!-- > **Note**: Once you clone and open the directory in VS Code, it will automatically suggest you to install Python extensions. You would also have to install miniconda as described above. -->
+> **Note**: 일단 VSCode로 레포지토리를 열면, 자동으로 Python extension들이 설치될 겁니다. 또한 위에 설명했던 miniconda를 설치했어야 합니다.
 
-### Using Jupyter in the Browser
+<!-- > **Note**: If VS Code suggests you to re-open the repository in container, you need to decline this to use local Python installation.  -->
+> **Note**: 만일 VSCode가 컨테이너에서 레포지토리를 다시 열라고 한다면, 로컬에 설치된 python을 사용하기 위해 거절해야 합니다.
 
-You can also use Jupyter environment right from the browser on your own computer. Actually, both classical Jupyter and Jupyer Hub provide quite convenient development environment with auto-completion, code highlighting, etc.
+<!-- ### Using Jupyter in the Browser -->
+### 브라우저에서 Jupyter 사용하기
 
-To start Jupyter locally, go to the directory of the course, and execute:
+<!-- You can also use Jupyter environment right from the browser on your own computer. Actually, both classical Jupyter and Jupyer Hub provide quite convenient development environment with auto-completion, code highlighting, etc. -->
+컴퓨터 브라우저에서 바로 Jupyter 환경을 사용할 수 있습니다. 사실, 클래식한 Jupyter와 Jupyter Hub 모두 상당히 편리한 개발 환경(ex> 자동완성, 코드 하이라이팅 등)을 제공합니다.
+
+<!-- To start Jupyter locally, go to the directory of the course, and execute: -->
+Jupyter를 로컬에서 시작하기 위해서는 디렉토리로 이동한다음에 아래를 실행시키시면 됩니다.
+
 
 ```bash
 jupyter notebook
@@ -91,21 +126,29 @@ or
 jupyterhub
 ```
 
-You then can navigate to any of the `.ipynb` files, open them and start working.
+<!-- You then can navigate to any of the `.ipynb` files, open them and start working. -->
+그리고 나서 `.ipynb`파일을 하나 만들어서 열고 작업하시면 됩니다.
 
-### Running in container
+<!-- ### Running in container -->
+### 컨테이너에서 실행시키기
 
-An alternative to Python installation would be to run the code in container. Since our repository contains special `.devcontainer` folder that instructs how to build a container for this repo, VS Code would offer you to re-open the code in container. This will require Docker installation, and also would be more complex, so we recommend this to more experienced users.
+<!-- An alternative to Python installation would be to run the code in container. Since our repository contains special `.devcontainer` folder that instructs how to build a container for this repo, VS Code would offer you to re-open the code in container. This will require Docker installation, and also would be more complex, so we recommend this to more experienced users. -->
+Python 설치의 대안으로 container에서 코드를 실행시킬수도 있습니다. 레포지토리가 `.devcontainer` 폴더를 가지고 있고, 이것이 이 레포지토리에서 컨테이너를 어떻게 만들 수 있는지 안내해줍니다. VSCode는 컨테이너에서 코드를 다시 열 수 있는 기능을 제공할 겁니다. Docker설치가 필요할 것입니다. 이 과정은 좀 더 복잡하기 때문에, 어느 정도 숙련된 사용자가 이 과정을 수행하는 것을 추천합니다.
 
-One of the best ways to keep your API keys secure when using GitHub Codespaces is by using Codespace Secrets. Please follow this guide on how to [manage secrets for your codespaces](https://docs.github.com/en/codespaces/managing-your-codespaces/managing-secrets-for-your-codespaces?WT.mc_id=academic-105485-koreyst).
+<!-- One of the best ways to keep your API keys secure when using GitHub Codespaces is by using Codespace Secrets. Please follow this guide on how to [manage secrets for your codespaces](https://docs.github.com/en/codespaces/managing-your-codespaces/managing-secrets-for-your-codespaces?WT.mc_id=academic-105485-koreyst). -->
+GitHub Codespaces를 사용하면서 당신의 API 키들을 안전하게 보관하는 가장 좋은 방법은 Codespace Secretes를 사용하는 방법입니다. [Codespace에 대한 보안 관리 가이드](https://docs.github.com/en/codespaces/managing-your-codespaces/managing-secrets-for-your-codespaces)를 참고하세요.
 
-## Lessons and Technical Requirements
+<!-- ## Lessons and Technical Requirements -->
+## 수업 소개 및 준비물
 
-The course has 6 concept lessons and 6 coding lessons.
+<!-- The course has 6 concept lessons and 6 coding lessons. -->
+이 코스는 6개의 컨셉 레슨과 6개의 코딩 레슨으로 이루어져 있습니다.
 
-For the coding lessons, we are using the Azure OpenAI Service. You will need access to the Azure OpenAI service and an API key to run this code. You can apply to get access by [completing this application](https://azure.microsoft.com/products/ai-services/openai-service?WT.mc_id=academic-105485-koreyst).
+<!-- For the coding lessons, we are using the Azure OpenAI Service. You will need access to the Azure OpenAI service and an API key to run this code. You can apply to get access by [completing this application](https://azure.microsoft.com/products/ai-services/openai-service?WT.mc_id=academic-105485-koreyst). -->
+코딩 레슨은 Azure OpenAI Service를 사용합니다. 학습자는 Azure OpenAI service를 사용할 수 있어야 하고 API key를 사용해서 코드를 실행시킬 수 있어야 합니다. [여기](https://azure.microsoft.com/products/ai-services/openai-service)에서 등록할 수 있습니다.
 
-While you wait for your application to be processed, each coding lesson also includes a `README.md` file where you can view the code and outputs.
+<!-- While you wait for your application to be processed, each coding lesson also includes a `README.md` file where you can view the code and outputs. -->
+어플리케이션이 실행되는걸 기다리는 동안에, 각 코딩 레슨에 포함된 `README.md` 파일을 통해 코드와 예상 출력을 볼 수 있습니다.
 
 ## Using the Azure OpenAI Service for the First Time
 
