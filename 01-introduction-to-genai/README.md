@@ -12,7 +12,8 @@
 <!-- In this curriculum, we’ll explore how our startup leverages generative AI to unlock new scenarios in the education world and how we address the inevitable challenges associated with the social implications of its application and the technology limitations. -->
 이 커리큘럼에서 스타트업이 어떻게 교육계에서 새로운 시나리오를 열기 위해 생성형AI를 조정하는지, 그리고 생성형 AI 적용에 대한 사회적 영향, 기술적 한계와 관련된 피할 수 없는 문제를 어떻게 조정하는지 살펴보겠습니다.
 
-## Introduction
+<!-- ## Introduction -->
+## 소개
 
 This lesson will cover:
 
