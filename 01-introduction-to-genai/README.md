@@ -1,12 +1,16 @@
-# Introduction to Generative AI and Large Language Models
+<!-- # Introduction to Generative AI and Large Language Models -->
+# 생성형 AI와 Large Language Models (LLM) 소개
 
-[![Introduction to Generative AI and Large Language Models](./images/01-lesson-banner.png?WT.mc_id=academic-105485-koreyst)](https://youtu.be/vf_mZrn8ibc?WT.mc_id=academic-105485-koreyst)
+[![Introduction to Generative AI and Large Language Models](./images/01-lesson-banner.png)](https://youtu.be/vf_mZrn8ibc)
 
-*(Click the image above to view video of this lesson)*
+<!-- *(Click the image above to view video of this lesson)* -->
+*(이미지를 클릭해서 이번 강의를 수강하세요)*
 
-Generative AI is artificial intelligence capable of generating text, images and other types of content. What makes it a fantastic technology is that it democratizes AI, anyone can use it with as little as a text prompt, a sentence written in a natural language. There's no need for you to learn a language like Java or SQL to accomplish something worthwhile, all you need is to use your language, state what you want and out comes a suggestion from an AI model. The applications and impact for this is huge, you write or understand reports, write applications and much more, all in seconds. 
+<!-- Generative AI is artificial intelligence capable of generating text, images and other types of content. What makes it a fantastic technology is that it democratizes AI, anyone can use it with as little as a text prompt, a sentence written in a natural language. There's no need for you to learn a language like Java or SQL to accomplish something worthwhile, all you need is to use your language, state what you want and out comes a suggestion from an AI model. The applications and impact for this is huge, you write or understand reports, write applications and much more, all in seconds. -->
+생성형 AI 는 text, 이미지를 포함한 여러 가지 콘텐츠를 생성할 수 있는 인공지능(AI)를 말합니다. 이 놀라운 기술은 AI의 민주화에 기여하였고, 때문에 어떤 사람이건 text prompt와 자연어로 된 문장을 조금 입력하기만 하면 사용할 수 있습니다. Java나 SQL같은 언어를 따로 공부할 필요도 없고, 그냥 사용자의 언어로 원하는 것을 입력하면 AI 모델로부터 제안을 받을 수 있습니다. 이러한 응용과 임팩트는 아주 거대하며, 당신은 보고서나 개발을 하는 등의 여러 작업을 몇 초 안에 수행할 수 있습니다.
 
-In this curriculum, we’ll explore how our startup leverages generative AI to unlock new scenarios in the education world and how we address the inevitable challenges associated with the social implications of its application and the technology limitations.
+<!-- In this curriculum, we’ll explore how our startup leverages generative AI to unlock new scenarios in the education world and how we address the inevitable challenges associated with the social implications of its application and the technology limitations. -->
+이 커리큘럼에서 스타트업이 어떻게 교육계에서 새로운 시나리오를 열기 위해 생성형AI를 조정하는지, 그리고 생성형 AI 적용에 대한 사회적 영향, 기술적 한계와 관련된 피할 수 없는 문제를 어떻게 조정하는지 살펴보겠습니다.
 
 ## Introduction
 
