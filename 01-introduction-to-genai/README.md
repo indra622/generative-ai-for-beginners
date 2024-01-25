@@ -15,62 +15,93 @@
 <!-- ## Introduction -->
 ## 소개
 
-This lesson will cover:
+<!-- This lesson will cover: -->
+이번 수업은 아래와 같은 내용을 다룹니다.
 
-* Introduction to the business scenario: our startup idea and mission.
-* Generative AI and how we landed on the current technology landscape.
-* Inner working of a large language model.
-* Main capabilities and practical use cases of Large Language Models.
+<!-- * Introduction to the business scenario: our startup idea and mission. -->
+* 비지니스 시나리오 소개: 스타트업의 아이디어와 미션
+<!-- * Generative AI and how we landed on the current technology landscape. -->
+* 생성형 AI와 어떻게 현재 기술 환경에 정착했는지
+<!-- * Inner working of a large language model. -->
+* large language model의 내부 작동
+<!-- * Main capabilities and practical use cases of Large Language Models. -->
+* Large language model의 주요 기능 및 실용적인 use case들
 
-## Learning Goals
+<!-- ## Learning Goals -->
+## 학습 목표
 
-After completing this lesson, you will understand:
+<!-- After completing this lesson, you will understand: -->
+이 수업이 끝나면, 아래와 같은 내용을 이해할 수 있습니다:
 
-* What generative AI is and how Large Language Models work.
-* How you can leverage large language models for different use cases, with a focus on education scenarios.
+<!-- * What generative AI is and how Large Language Models work. -->
+* 생성형 AI가 무엇인지와 LLM 동작 방식이 어떻게 되는지
+<!-- * How you can leverage large language models for different use cases, with a focus on education scenarios. -->
+* 교육 분야에서, LLM을 서로 다른 use case에 대해 어떻게 다룰 수 있는지
 
-## Scenario: our educational startup 
+<!-- ## Scenario: our educational startup  -->
+## 시나리오: 교육 관련 스타트업
 
-Generative Artificial Intelligence (AI) represents the pinnacle of AI technology, pushing the boundaries of what was once thought impossible. Generative AI models have several capabilities and applications, but for this curriculum we'll explore how it's revolutionizing education through a fictional startup. We'll refer to this startup as *our startup*. Our startup works in the education domain with the ambitious mission statement of 
+<!-- Generative Artificial Intelligence (AI) represents the pinnacle of AI technology, pushing the boundaries of what was once thought impossible. Generative AI models have several capabilities and applications, but for this curriculum we'll explore how it's revolutionizing education through a fictional startup. We'll refer to this startup as *our startup*. Our startup works in the education domain with the ambitious mission statement of  -->
+생성형 AI는 AI 기술의 정점으로, 한때 불가능했다고 여겨진 한계를 벗어났습니다. 생성형 AI 모델들은 몇 가지 기능과 응용들이 있지만, 이 과정에서는 교육 분야에 있어서의 혁명을 생성형 AI로 어떻게 했는지 가상의 스타트업을 통해서 살펴보겠습니다. 이 회사를 '우리 스타트업'이라고 해봅시다. 우리 스타트업은 교육 분야에서 아래와 같은 비전을 가지고 일하고 있습니다.
 
-> *improving accessibility in learning, on a global scale, ensuring equitable access to education and providing personalized learning experiences to every learner, according to their needs*.
+<!-- > *improving accessibility in learning, on a global scale, ensuring equitable access to education and providing personalized learning experiences to every learner, according to their needs*. -->
+> *모든 학습자들에게 개개인의 요구 사항에 맞추어진 개인화된 학습 경험과 교육의 평등을 글로벌 스케일로 개선한다.*
 
-Our startup team is aware we’ll not be able to achieve this goal without leveraging one of the most powerful tools of modern times – Large Language Models (LLMs).
+<!-- Our startup team is aware we’ll not be able to achieve this goal without leveraging one of the most powerful tools of modern times – Large Language Models (LLMs). -->
+우리 스타트업 팀은 이 시대 가장 강력한 도구인 LLM없이는 이 목적을 달성할 수 없다는 걸 알고 있습니다.
 
-Generative AI is expected to revolutionize the way we learn and teach today, with students having at their disposal virtual teachers 24 hours a day who provide vast amounts of information and examples, and teachers able to leverage innovative tools to assess their students and give feedback.
+<!-- Generative AI is expected to revolutionize the way we learn and teach today, with students having at their disposal virtual teachers 24 hours a day who provide vast amounts of information and examples, and teachers able to leverage innovative tools to assess their students and give feedback. -->
+생성형 AI는 우리가 배우고 가르치는 방법에 혁명을 일으킬 것으로 기대됩니다. 학생들은 자기들이 원하는 가상 선생님에게 하루 24시간동안 다양한 정보와 예시들을 배울 것이고, 선생들은 혁신적인 도구들을 통해서 학생들을 가르치고 피드백을 받을 수 있습니다.
 
-![Five young students looking at a monitor - image by DALLE2](./images/students-by-DALLE2.png?WT.mc_id=academic-105485-koreyst)
+![Five young students looking at a monitor - image by DALLE2](./images/students-by-DALLE2.png)
 
-To start, let’s define some basic concepts and terminology we’ll be using throughout the curriculum.
+<!-- To start, let’s define some basic concepts and terminology we’ll be using throughout the curriculum. -->
+시작하기위해서 이 과정에서 사용할 기본 컨셉과 용어들을 정의해 봅시다.
 
-## How did we get Generative AI?
+<!-- ## How did we get Generative AI? -->
+## 어떻게 생성형 AI를 쓸 수 있을까요?
 
-Despite the extraordinary *hype* created lately by the announcement of generative AI models, this technology is decades in the making, with the first research efforts dating back to 60s. We're now at a point with AI having human cognitive capabilities, like conversation as shown by for example [OpenAI ChatGPT](https://openai.com/chatgpt) or [Bing Chat](https://www.microsoft.com/edge/features/bing-chat?WT.mc_id=academic-105485-koreyst), which also uses a GPT model for the web search Bing conversations.
+<!-- Despite the extraordinary *hype* created lately by the announcement of generative AI models, this technology is decades in the making, with the first research efforts dating back to 60s. We're now at a point with AI having human cognitive capabilities, like conversation as shown by for example [OpenAI ChatGPT](https://openai.com/chatgpt) or [Bing Chat](https://www.microsoft.com/edge/features/bing-chat?WT.mc_id=academic-105485-koreyst), which also uses a GPT model for the web search Bing conversations. -->
+완전 규격 외의 과대광고들이(할루시네이션 말하는듯) 생성형 AI에서 발생한다 하더라도, 이 기술은 60년대 이후 수십년간 개발되어 왔습니다. 이제는 AI가 인간의 인지 능력을 거의 따라왔다고 보고 있고, [OpenAI ChatGPT](https://openai.com/chatgpt)나 [Bing Chat](https://www.microsoft.com/edge/features/bing-chat) 같이 GPT 모델을 사용해서 검색이나 대화를 할 수 있습니다.
 
-Backing up a bit, the  very first prototypes of AI consisted of typewritten chatbots, relying on a knowledge base extracted from a group of experts and represented into a computer. The answers in the knowledge base were triggered by keywords appearing in the input text.
-However, it soon became clear that such approach, using typewritten chatbots, did not scale well.
+<!-- Backing up a bit, the  very first prototypes of AI consisted of typewritten chatbots, relying on a knowledge base extracted from a group of experts and represented into a computer. The answers in the knowledge base were triggered by keywords appearing in the input text. -->
+조금 더 말하자면, AI의 프로토타입은 전문가들로부터 얻어낸 지식들을 기반으로 컴퓨터에 입력한 챗봇들로 구성되었습니다. 정답은 knowledge base로 이루어져 있었는데, 입력 텍스트의 키워드에 따라서 답변했습니다.
 
-### A statistical approach to AI: Machine Learning
+<!-- However, it soon became clear that such approach, using typewritten chatbots, did not scale well. -->
+그러나, 확장성이 떨어지는 문제가 있었습니다.
 
-A turning point arrived during the 90s, with the application of a statistical approach to text analysis. This led to the development of new algorithms – known with the name of machine learning - able to learn patterns from data, without being explicitly programmed. This approach allows a machine to simulate human language understanding: a statistical model is trained on text-label pairings, enabling the model to classify unknown input text with a pre-defined label representing the intention of the message.
+<!-- ### A statistical approach to AI: Machine Learning -->
+### AI의 통계적 접근: 머신러닝
 
-### Neural networks and modern virtual assistants
+<!-- A turning point arrived during the 90s, with the application of a statistical approach to text analysis. This led to the development of new algorithms – known with the name of machine learning - able to learn patterns from data, without being explicitly programmed. This approach allows a machine to simulate human language understanding: a statistical model is trained on text-label pairings, enabling the model to classify unknown input text with a pre-defined label representing the intention of the message. -->
+90년대의 터닝포인트는 텍스트 분석에 통계적 접근을 적용했다는 점입니다. 이 터닝포인트는 머신 러닝이라고 불리게 되는 새로운 알고리즘의 개발로 이어졌으며, 별도의 프로그래밍 작업 없이 데이터의 패턴을 학습할 수 있게 됩니다. 이런 접근 방식은 기계로 하여금 인간의 언어 이해 체계를 모방할 수 있게 되었습니다. 통계적 모델은 text와 label의 쌍으로 이루어진 학습 데이터로 학습되었으며, 모델로 하여금 모르는 입력 텍스트를 어떠한 의미가 담긴 사전 정의된 label로 분류할 수 있게 됩니다. 
 
-In more recent times, the technological evolution of the hardware, capable of handling larger amounts of data and more complex computations, encouraged research in the AI fields, leading to the development of advanced machine learning algorithms – called neural networks or deep learning algorithms.
+<!-- ### Neural networks and modern virtual assistants -->
+### Neural networks와 가상 비서
 
-Neural networks (and in particular Recurrent Neural Networks – RNNs) significantly enhanced natural language processing, enabling the representation of the meaning of text in a more meaningful way, valuing the context of a word in a sentence.
+<!-- In more recent times, the technological evolution of the hardware, capable of handling larger amounts of data and more complex computations, encouraged research in the AI fields, leading to the development of advanced machine learning algorithms – called neural networks or deep learning algorithms. -->
+최근에, 하드웨어의 기술적 발전으로 인해, 많은 양의 데이터와 연산 장치의 발전으로, AI 분야의 연구가 발전하면서, 발전된 형태의 머신러닝 알고리즘이 개발되었습니다. 이것을 neural network 혹은 딥 러닝 알고리즘이라고 부릅니다.
 
-This is the technology that powered the virtual assistants born in the first decade of the new century, very proficient in interpreting the human language, identifying a need, and performing an action to satisfy it – like answering with a pre-defined script or consuming a 3rd party service.
+<!-- Neural networks (and in particular Recurrent Neural Networks – RNNs) significantly enhanced natural language processing, enabling the representation of the meaning of text in a more meaningful way, valuing the context of a word in a sentence. -->
+Neural network, 정확히는 Recurrent neural network(RNN)은 병확히 발전된 자연어처리 모델이며, 텍스트의 의미를 문장의 단어들의 context 정보를 사용해 명확한 방법으로 표현한다.
 
-### Present day, Generative AI
+<!-- This is the technology that powered the virtual assistants born in the first decade of the new century, very proficient in interpreting the human language, identifying a need, and performing an action to satisfy it – like answering with a pre-defined script or consuming a 3rd party service. -->
+이 기술로 인해서 21세기 초에 사람의 언어를 해석할 수 있는 가상 비서가 탄생할 수 있었고, 서드 파티 서비스나 사전에 작성된 시나리오에 대해 답변하는 일들에 대해 꽤 만족스러운 반응을 얻었다. 
 
-So that’s how we came to Generative AI today, which can be seen as a subset of deep learning.
 
-![AI, ML, DL and Generative AI](./images/AI-diagram.png?WT.mc_id=academic-105485-koreyst)
+<!-- ### Present day, Generative AI -->
+### 현재, 생성형 AI
 
-After decades of research in the AI field, a new model architecture – called *Transformer* – overcame the limits of RNNs, being able to get much longer sequences of text as input. Transformers are based on the attention mechanism, enabling the model to give different weights to the inputs it receives, ‘paying more attention’ where the most relevant information is concentrated, regardless of their order in the text sequence.
+<!-- So that’s how we came to Generative AI today, which can be seen as a subset of deep learning. -->
+자 이제 딥러닝의 일부로 보여지는 생성형 AI가 어떻게 왔는지 알아봅시다.
 
-Most of the recent generative AI models – also known as Large Language Models (LLMs), since they work with textual inputs and outputs – are indeed based on this architecture. What’s interesting about these models – trained on a huge amount of unlabeled data from diverse sources like books, articles and websites – is that they can be adapted to a wide variety of tasks and generate grammatically correct text with a semblance of creativity. So, not only did they incredibly enhance the capacity of a machine to ‘understand’ an input text, but they enabled their capacity to generate an original response in human language.
+![AI, ML, DL and Generative AI](./images/AI-diagram.png)
+
+<!-- After decades of research in the AI field, a new model architecture – called *Transformer* – overcame the limits of RNNs, being able to get much longer sequences of text as input. Transformers are based on the attention mechanism, enabling the model to give different weights to the inputs it receives, ‘paying more attention’ where the most relevant information is concentrated, regardless of their order in the text sequence. -->
+AI분야 연구로부터 수십년, *Transformer* 라고 불리는 새로운 모델이 등장했습니다. RNN의 한계점을 해결하고 더 긴 문장들을 입력으로 받을 수 있게 되었습니다. Transformer는 attention mechanism을 기반으로 해서 모델로 하여금 입력에 대해 '더 주목해야 되는 요소에' 다른 가중치를 줄 수 있게 되었습니다. 따라서 입력 순서에 관계 없이 더 연관 있는 정보에 집중할 수 있게 되었습니다.
+
+<!-- Most of the recent generative AI models – also known as Large Language Models (LLMs), since they work with textual inputs and outputs – are indeed based on this architecture. What’s interesting about these models – trained on a huge amount of unlabeled data from diverse sources like books, articles and websites – is that they can be adapted to a wide variety of tasks and generate grammatically correct text with a semblance of creativity. So, not only did they incredibly enhance the capacity of a machine to ‘understand’ an input text, but they enabled their capacity to generate an original response in human language. -->
+텍스트를 입력과 출력으로 삼는, LLM이라고도 불리는 요즘 대부분의 생성형 AI모델들은 Transformer를 기반으로 합니다. 이 모델들의 흥미로운 점은 엄청난 양의 책, 기사, 웹사이트 등과 같은 다양한 곳에서 수집한, unlabeled 데이터를 사용한다는 점입니다. 이 때문에 LLM들은 다양한 일들에 대응할 수 있고 문법적으로 올바르며 창의적인 텍스트를 생성해 낼 수 있게 되었습니다. 그래서, 기계가 입력된 텍스트를 이해하는 능력이 향상될 뿐 아니라 인간의 언어에 대한 고유의 답변들을 만들어낼 수 있게 된 것입니다.
 
 ## How do large language models work?
 
