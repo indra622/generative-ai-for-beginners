@@ -173,16 +173,23 @@ Azure OpenAI service를 처음 동작시켜본다면, [Azure OpenAI service 리�
 <!-- This course is an open-source initiative. If you see areas of improvement or issues, please create a [Pull Request](https://github.com/microsoft/generative-ai-for-beginners/pulls?WT.mc_id=academic-105485-koreyst) or log a [GitHub issue](https://github.com/microsoft/generative-ai-for-beginners/issues?WT.mc_id=academic-105485-koreyst). -->
 이 과정은 오픈소스로 계획되었습니다. 개선 방안이나 이슈가 있다면, [Pull Request](https://github.com/microsoft/generative-ai-for-beginners/pulls)를 생성하거나 [GitHub issue](https://github.com/microsoft/generative-ai-for-beginners/issues)를 남겨주세요.
 
-The project team will be tracking all contributions and contributing to open source is an amazing way to build your career in Generative AI.
+<!-- The project team will be tracking all contributions and contributing to open source is an amazing way to build your career in Generative AI. -->
+이 프로젝트 팀은 모든 기여 사항을 추적하고 있으며, 오픈소스에 기여하는 것은 당신의 생성형 AI 커리어를 만드는 훌륭한 방법입니다.
 
-Most contributions require you to agree to a Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us the rights to use your contribution. For details, visit [CLA, Contributor License Agreement website](https://cla.microsoft.com?WT.mc_id=academic-105485-koreyst).
+<!-- Most contributions require you to agree to a Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us the rights to use your contribution. For details, visit [CLA, Contributor License Agreement website](https://cla.microsoft.com?WT.mc_id=academic-105485-koreyst). -->
+대부분의 기여들은 Contributor License Agreement (CLA)에 동의 하는것으로 간주하며, 이 권리를 지킵니다. 자세한 내용은 [CLA, Contributor License Agreement website](https://cla.microsoft.com)를 방문해서 확인 바랍니다.
 
-Important: when translating text in this repo, please ensure that you do not use machine translation. We will verify translations via the community, so please only volunteer for translations in languages where you are proficient.
+<!-- Important: when translating text in this repo, please ensure that you do not use machine translation. We will verify translations via the community, so please only volunteer for translations in languages where you are proficient. -->
+중요: 이 repo의 내용을 번역할때는 기계 번역을 사용하지 말아주세요. 우리는 커뮤니티를 통해 번역을 점검할 것이니, 언어 번역에 자원봉사로 참여해주세요.
 
-When you submit a pull request, a CLA-bot will automatically determine whether you need to provide a CLA and decorate the PR appropriately (e.g., label, comment). Simply follow the instructions provided by the bot. You will only need to do this once across all repositories using our CLA.
+<!-- When you submit a pull request, a CLA-bot will automatically determine whether you need to provide a CLA and decorate the PR appropriately (e.g., label, comment). Simply follow the instructions provided by the bot. You will only need to do this once across all repositories using our CLA. -->
+pull request를 올릴땐, CLA-bot이 자동으로 CLA를 적용하고 PR을 적절히 다듬을 필요가 있는지 결정할 것입니다. 단순히 bot의 안내를 따라 주세요. CLA를 사용하는 모든 저장소 통틀어 한번만 하면 됩니다.
 
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/?WT.mc_id=academic-105485-koreyst). For more information read the Code of Conduct FAQ or contact [Email opencode](opencode@microsoft.com) with any additional questions or comments.
+<!-- This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/?WT.mc_id=academic-105485-koreyst). For more information read the Code of Conduct FAQ or contact [Email opencode](opencode@microsoft.com) with any additional questions or comments. -->
+이 프로젝트는 [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/)를 채택했습니다. 더 자세한 정보는 Code of Conduct FAQ or contact [Email opencode](opencode@microsoft.com)를 통해 추가적인 질문이나 코멘트 남겨주세요.
 
-## Let's Get Started
+<!-- ## Let's Get Started -->
+## 시작해봅시다
 
-Now that you have completed the needed steps to complete this course, let's get started by getting an [introduction to Generative AI and LLMs](../01-introduction-to-genai/README.md?WT.mc_id=academic-105485-koreyst).
+<!-- Now that you have completed the needed steps to complete this course, let's get started by getting an [introduction to Generative AI and LLMs](../01-introduction-to-genai/README.md?WT.mc_id=academic-105485-koreyst). -->
+이제 이 수업들을 완료하기 위해 필요한 과정을 마쳤습니다. [Introduction to Generative AI and LLMs](../01-introduction-to-genai/README.md)로 이동합시다.
