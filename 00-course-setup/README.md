@@ -150,21 +150,28 @@ GitHub Codespaces를 사용하면서 당신의 API 키들을 안전하게 보관
 <!-- While you wait for your application to be processed, each coding lesson also includes a `README.md` file where you can view the code and outputs. -->
 어플리케이션이 실행되는걸 기다리는 동안에, 각 코딩 레슨에 포함된 `README.md` 파일을 통해 코드와 예상 출력을 볼 수 있습니다.
 
-## Using the Azure OpenAI Service for the First Time
+<!-- ## Using the Azure OpenAI Service for the First Time -->
+## 처음으로 Azure OpenAI Service를 사용하기
 
-If this is your first time working with the Azure OpenAI service, please follow this guide on how to [create and deploy an Azure OpenAI Service resource.](https://learn.microsoft.com/azure/ai-services/openai/how-to/create-resource?pivots=web-portal&WT.mc_id=academic-105485-koreyst)
+<!-- If this is your first time working with the Azure OpenAI service, please follow this guide on how to [create and deploy an Azure OpenAI Service resource.](https://learn.microsoft.com/azure/ai-services/openai/how-to/create-resource?pivots=web-portal&WT.mc_id=academic-105485-koreyst) -->
+Azure OpenAI service를 처음 동작시켜본다면, [Azure OpenAI service 리소스 생성 및 배포](https://learn.microsoft.com/azure/ai-services/openai/how-to/create-resource?pivots=web-portal)를 참고하세요.
 
-## Meet Other Learners
+<!-- ## Meet Other Learners -->
+## 다른 학습자들 만나기
 
-We have created channels in our official [AI Community Discord server](https://aka.ms/genai-discord?WT.mc_id=academic-105485-koreyst) for meeting other learners. This is a great way to network with other like-minded entrepreneurs, builders, students, and anyone looking to level up in Generative AI.
+<!-- We have created channels in our official [AI Community Discord server](https://aka.ms/genai-discord?WT.mc_id=academic-105485-koreyst) for meeting other learners. This is a great way to network with other like-minded entrepreneurs, builders, students, and anyone looking to level up in Generative AI. -->
+공식 [AI Community Discord server](https://aka.ms/genai-discord)를 통해 다른 학습자들을 만나보세요. 기업가, 개발자, 학생 그리고 생성형AI 수준을 높이고 싶은 여러 다른 사람들과 소통할 수 있는 좋은 방법입니다.
 
-[![Join discord channel](https://dcbadge.vercel.app/api/server/ByRwuEEgH4)](https://aka.ms/genai-discord?WT.mc_id=academic-105485-koreyst)
+[![Discord 채널 참여](https://dcbadge.vercel.app/api/server/ByRwuEEgH4)](https://aka.ms/genai-discord)
 
-The project team will also be on this Discord server to help any learners.
+<!-- The project team will also be on this Discord server to help any learners. -->
+이 프로젝트 팀은 Discord 서버에 있으면서 학습자들에게 도움을 줄 겁니다.
 
-## Contribute
+<!-- ## Contribute -->
+## 이 프로젝트에 기여
 
-This course is an open-source initiative. If you see areas of improvement or issues, please create a [Pull Request](https://github.com/microsoft/generative-ai-for-beginners/pulls?WT.mc_id=academic-105485-koreyst) or log a [GitHub issue](https://github.com/microsoft/generative-ai-for-beginners/issues?WT.mc_id=academic-105485-koreyst).
+<!-- This course is an open-source initiative. If you see areas of improvement or issues, please create a [Pull Request](https://github.com/microsoft/generative-ai-for-beginners/pulls?WT.mc_id=academic-105485-koreyst) or log a [GitHub issue](https://github.com/microsoft/generative-ai-for-beginners/issues?WT.mc_id=academic-105485-koreyst). -->
+이 과정은 오픈소스로 계획되었습니다. 개선 방안이나 이슈가 있다면, [Pull Request](https://github.com/microsoft/generative-ai-for-beginners/pulls)를 생성하거나 [GitHub issue](https://github.com/microsoft/generative-ai-for-beginners/issues)를 남겨주세요.
 
 The project team will be tracking all contributions and contributing to open source is an amazing way to build your career in Generative AI.
 
