@@ -103,17 +103,23 @@ AI분야 연구로부터 수십년, *Transformer* 라고 불리는 새로운 모
 <!-- Most of the recent generative AI models – also known as Large Language Models (LLMs), since they work with textual inputs and outputs – are indeed based on this architecture. What’s interesting about these models – trained on a huge amount of unlabeled data from diverse sources like books, articles and websites – is that they can be adapted to a wide variety of tasks and generate grammatically correct text with a semblance of creativity. So, not only did they incredibly enhance the capacity of a machine to ‘understand’ an input text, but they enabled their capacity to generate an original response in human language. -->
 텍스트를 입력과 출력으로 삼는, LLM이라고도 불리는 요즘 대부분의 생성형 AI모델들은 Transformer를 기반으로 합니다. 이 모델들의 흥미로운 점은 엄청난 양의 책, 기사, 웹사이트 등과 같은 다양한 곳에서 수집한, unlabeled 데이터를 사용한다는 점입니다. 이 때문에 LLM들은 다양한 일들에 대응할 수 있고 문법적으로 올바르며 창의적인 텍스트를 생성해 낼 수 있게 되었습니다. 그래서, 기계가 입력된 텍스트를 이해하는 능력이 향상될 뿐 아니라 인간의 언어에 대한 고유의 답변들을 만들어낼 수 있게 된 것입니다.
 
-## How do large language models work?
+<!-- ## How do large language models work? -->
+## LLM은 어떻게 동작합니까?
 
-In the next chapter we are going to explore different types of Generative AI models, but for now let’s have a look at how large language models work, with a focus on OpenAI GPT (Generative Pre-trained Transformer) models.
+<!-- In the next chapter we are going to explore different types of Generative AI models, but for now let’s have a look at how large language models work, with a focus on OpenAI GPT (Generative Pre-trained Transformer) models. -->
+다음 장에서 우리는 서로 다른 타입의 생성형AI 모델들을 살펴볼 것입니다만, 지금은 어떻게 LLM이 동작하는지 OpenAI GPT 모델을 기준으로 알아봅시다.
 
-* **Tokenizer, text to numbers**: Large Language Models receive a text as input and generate a text as output. However, being statistical models, they work much better with numbers than text sequences. That’s why every input to the model is processed by a tokenizer, before being used by the core model. A token is a chunk of text – consisting of a variable number of characters, so the tokenizer's main task is splitting the input into an array of tokens. Then, each token is mapped with a token index, which is the integer encoding of the original text chunk.
+<!-- * **Tokenizer, text to numbers**: Large Language Models receive a text as input and generate a text as output. However, being statistical models, they work much better with numbers than text sequences. That’s why every input to the model is processed by a tokenizer, before being used by the core model. A token is a chunk of text – consisting of a variable number of characters, so the tokenizer's main task is splitting the input into an array of tokens. Then, each token is mapped with a token index, which is the integer encoding of the original text chunk. -->
+* **Tokenizer를 이용해 텍스트를 숫자로 변환**: LLM은 텍스트를 입력으로 받아서 텍스트를 출력으로 생성합니다. 그러나, 통계적 모델에 대해서는 숫자가 텍스트보다 잘 동작합니다. 왜냐하면 모델의 모든 입력이 모델에 입력되기 전에 tokenizer를 통해 처리되기 때문입니다. 하나의 토큰은 text의 조각으로 구성되어 있는데, 이것은 다양한 숫자의 캐릭터(char)로 구성되어 있습니다. 그래서 tokenizer의 주요 업무는 입력을 token의 array로 나누는 것입니다. 그러고나서, 각각의 토큰은 token index로 매핑되는데, token index는 원래 text chunk에 대한 정수 인코딩입니다.
 
-![Example of tokenization](./images/tokenizer-example.png?WT.mc_id=academic-105485-koreyst)
+![Example of tokenization](./images/tokenizer-example.png)
 
-* **Predicting output tokens**: Given n tokens as input (with max n varying from one model to another), the model is able to predict one token as output. This token is then incorporated into the input of the next iteration, in an expanding window pattern, enabling a better user experience of getting one (or multiple) sentence as an answer. This explains why, if you ever played with ChatGPT, you might have noticed that sometimes it looks like it stops in the middle of a sentence.
+<!-- * **Predicting output tokens**: Given n tokens as input (with max n varying from one model to another), the model is able to predict one token as output. This token is then incorporated into the input of the next iteration, in an expanding window pattern, enabling a better user experience of getting one (or multiple) sentence as an answer. This explains why, if you ever played with ChatGPT, you might have noticed that sometimes it looks like it stops in the middle of a sentence. -->
+* **출력 토큰 예측**: 주어진 n개의 입력 토큰들에 대해서 모델은 하나의 토큰을 예측하여 출력합니다. 이 토큰은 다음 차례의 입력이 되며, window pattern을 확장시킵니다. 이로서 정답으로 나오는 출력에 대한 더 나은 사용자 경험을 얻게 됩니다. 이것은 ChatGPT와 같은 것을 사용했을 때, 가끔 문장이 완성되지 않고 중간에 멈추는 이유를 설명할 수 있습니다. 
 
 * **Selection process, probability distribution**: The output token is chosen by the model according to its probability of occurring after the current text sequence. This is because the model predicts a probability distribution over all possible ‘next tokens’, calculated based on its training. However, not always the token with the highest probability is chosen from the resulting distribution. A degree of randomness is added to this choice, in a way that the model acts in a non-deterministic fashion - we do not get the exact same output for the same input. This degree of randomness is added to simulate the process of creative thinking and it can be tuned using a model parameter called temperature.
+* **선택 절차, 확률분포**: 출력 토큰은 모델에 의해, 나중에 나올 텍스트들의 확률로 인해 결정됩니다. 
+
 
 ## How can our startup leverage Large Language Models?
 
