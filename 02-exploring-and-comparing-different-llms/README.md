@@ -1,12 +1,17 @@
-# Exploring and comparing different LLMs
+<!-- # Exploring and comparing different LLMs -->
+# 서로 다른 LLM들을 살펴보고 비교해보기
 
-[![Exploring and comparing different LLMs](./images/02-lesson-banner.png?WT.mc_id=academic-105485-koreyst)](https://youtu.be/J1mWzw0P74c?WT.mc_id=academic-105485-koreyst)
+[![Exploring and comparing different LLMs](./images/02-lesson-banner.png)](https://youtu.be/J1mWzw0P74c)
 
-> *Click the image above to view video of this lesson*
+<!-- > *Click the image above to view video of this lesson* -->
+> *이미지를 클릭하여 수업을 수강하세요.
 
-With the previous lesson, we have seen how Generative AI is changing the technology landscape, how Large Language Models (LLMs) work and how a business - like our startup - can apply them to their use cases and grow! In this chapter, we're looking to compare and contrast different types of large language models, LLMs to understand their pros and cons.
+<!-- With the previous lesson, we have seen how Generative AI is changing the technology landscape, how Large Language Models (LLMs) work and how a business - like our startup - can apply them to their use cases and grow! In this chapter, we're looking to compare and contrast different types of large language models, LLMs to understand their pros and cons. -->
+이전 레슨에서, 어떻게 생성형 AI가 기술을 변화시키는지, 어떻게 LLM이 동작하는지, 그리고 어떻게 우리 스타트업과 같은 회사들이 생성형 AI를 use case에 적용하고 성장시키는지 보았습니다. 이번 장에서는 비교 및 대조를 통해 다양한 LLM을 살펴보고, 장단점이 무엇인지 알아보겠습니다.
 
-The next step in our startup's journey is exploring the current landscape of Large Language Models (LLMs) and understanding which are suitable for our use case.
+<!-- The next step in our startup's journey is exploring the current landscape of Large Language Models (LLMs) and understanding which are suitable for our use case. -->
+우리 스타트업에 대한 다음 여행은 LLM의 현재 생태계를 살펴보고, 어떤 것이 우리의 use case에 적절한지 이해하는 것입니다.
+
 
 ## Introduction
 
