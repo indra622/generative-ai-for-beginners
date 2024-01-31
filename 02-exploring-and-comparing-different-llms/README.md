@@ -13,21 +13,31 @@
 우리 스타트업에 대한 다음 여행은 LLM의 현재 생태계를 살펴보고, 어떤 것이 우리의 use case에 적절한지 이해하는 것입니다.
 
 
-## Introduction
+<!-- ## Introduction -->
+## 소개
 
-This lesson will cover:
+<!-- This lesson will cover: -->
+이번 강의는 아래와 같은 내용을 다룹니다.
 
-- Different types of LLMs in the current landscape.
-- Testing, iterating, and comparing different models for your use case in Azure.
-- How to deploy an LLM.
+<!-- - Different types of LLMs in the current landscape. -->
+- 서로 다른 타입의 LLM들을 현재 관점에서 바라봅니다.
+<!-- - Testing, iterating, and comparing different models for your use case in Azure. -->
+- Azure상에서 use case에 대해 서로 다른 모델들을 테스트, 반복 그리고 비교합니다.
+<!-- - How to deploy an LLM. -->
+- LLM을 배포하는 방법에 대해 다룹니다.
 
-## Learning Goals
+<!-- ## Learning Goals -->
+## 학습 목표
 
-After completing this lesson, you will be able to:
+<!-- After completing this lesson, you will be able to: -->
+이 수업이 끝나면 아래와 같은 것들을 할 수 있게 됩니다.
 
-- Select the right model for your use case.
-- Understand how to test, iterate, and improve performance of your model.
-- Know how businesses deploy models.
+<!-- - Select the right model for your use case. -->
+- use case에 적합한 모델을 선택할 수 있게 됩니다.
+<!-- - Understand how to test, iterate, and improve performance of your model. -->
+- 모델을 어떻게 테스트하고, 반복하고, 성능을 개선할 수 있는지 이해하게 됩니다.
+<!-- - Know how businesses deploy models. -->
+- 모델 배포에 대한 노하우를 얻게 됩니다.
 
 ## Understand different types of LLMs
 
