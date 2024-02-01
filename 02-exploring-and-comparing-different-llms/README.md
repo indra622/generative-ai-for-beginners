@@ -39,13 +39,17 @@
 <!-- - Know how businesses deploy models. -->
 - 모델 배포에 대한 노하우를 얻게 됩니다.
 
-## Understand different types of LLMs
+<!-- ## Understand different types of LLMs -->
+## 여러 가지 LLM들 이해해보기
 
-Large Language Models (LLMs) can have multiple categorizations based on their architecture, training data, and use case. Understanding these differences will help our startup select the right model for the scenario, and understand how to test, iterate, and improve performance.
+<!-- Large Language Models (LLMs) can have multiple categorizations based on their architecture, training data, and use case. Understanding these differences will help our startup select the right model for the scenario, and understand how to test, iterate, and improve performance. -->
+LLM들은 여러개의 카테고리를 가집니다. 아키텍쳐, 학습 자료, 그리고 use case에 따라서요. 이 차이들을 이해하는 것은 우리 스타트업으로 하여금 시나리오에 대한 올바른 모델을 선택할 수 있게 해주고, 어떻게 테스트, 반복, 성능 개선을해야 하는지 이해할 수 있게 해줍니다.
 
-There are many different types of LLM models, your choice of model depends on what you aim to use them for, your data, how much you're ready to pay and more.
+<!-- There are many different types of LLM models, your choice of model depends on what you aim to use them for, your data, how much you're ready to pay and more. -->
+여러 가지 LLM들이 있으며, 모델에 대한 선택은 어떤 데이터를 쓰는지, 얼마나 돈을 쓸 준비가 되었는지에 달렸습니다.
 
 Depending on if you aim to use the models for text, audio, video, image generation and so on, you might opt for a different type of model.
+
 
 - **Audio and speech recognition**. For this purpose, Whisper-type models are a great choice as they're general-purpose and aimed at speech recognition. It's trained on diverse audio and can perform multilingual speech recognition. Learn more about [Whisper type models here](https://platform.openai.com/docs/models/whisper?WT.mc_id=academic-105485-koreyst).
 
