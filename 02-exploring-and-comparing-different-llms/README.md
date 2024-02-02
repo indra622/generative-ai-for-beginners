@@ -48,18 +48,25 @@ LLM들은 여러개의 카테고리를 가집니다. 아키텍쳐, 학습 자료
 <!-- There are many different types of LLM models, your choice of model depends on what you aim to use them for, your data, how much you're ready to pay and more. -->
 여러 가지 LLM들이 있으며, 모델에 대한 선택은 어떤 데이터를 쓰는지, 얼마나 돈을 쓸 준비가 되었는지에 달렸습니다.
 
-Depending on if you aim to use the models for text, audio, video, image generation and so on, you might opt for a different type of model.
+<!-- Depending on if you aim to use the models for text, audio, video, image generation and so on, you might opt for a different type of model. -->
+텍스트, 오디오, 비디오, 이미지나 기타 등등 다른 곳에 모델을 생성하는 상황이라면 서로 다른 모델을 사용할 수 있습니다.
 
 
-- **Audio and speech recognition**. For this purpose, Whisper-type models are a great choice as they're general-purpose and aimed at speech recognition. It's trained on diverse audio and can perform multilingual speech recognition. Learn more about [Whisper type models here](https://platform.openai.com/docs/models/whisper?WT.mc_id=academic-105485-koreyst).
+<!-- - **Audio and speech recognition**. For this purpose, Whisper-type models are a great choice as they're general-purpose and aimed at speech recognition. It's trained on diverse audio and can perform multilingual speech recognition. Learn more about [Whisper type models here](https://platform.openai.com/docs/models/whisper?WT.mc_id=academic-105485-koreyst). -->
+- **오디오와 음성인식**. 이걸 위해서는 Whisper와 같은 모델들이 좋은 선택이 됩니다. 만일 일반적인 음성인식이 필요하다면요. 이 모델은 다양한 오디오로 학습되었고, 다국어를 지원합니다. [Whisper type models](https://platform.openai.com/docs/models/whisper)를 참고하세요.
 
-- **Image generation**. For image generation, DALL-E and Midjourney are two very known choices. DALL-E is offered by Azure OpenAI. [Read more about DALL-E here](https://platform.openai.com/docs/models/dall-e?WT.mc_id=academic-105485-koreyst) and also in Chapter 9 of this curriculum.
+<!-- - **Image generation**. For image generation, DALL-E and Midjourney are two very known choices. DALL-E is offered by Azure OpenAI. [Read more about DALL-E here](https://platform.openai.com/docs/models/dall-e?WT.mc_id=academic-105485-koreyst) and also in Chapter 9 of this curriculum. -->
+- **이미지 생성**. 이미지 생성을 위해서는 DALL-E와 Midjourney가 가장 잘 알려졌습니다. DALL-E는 Azure OpenAI에서 서비스됩니다. [DALL-E에 대한 더 많은 읽을 거리](https://platform.openai.com/docs/models/dall-e)를 참고하거나 chapter 9를 보세요.
 
-- **Text generation**. Most models are trained on text generation and you have a large variety of choices from GPT-3.5 to GPT-4. They come at different costs with GPT-4 being the most expensive. It's worth looking into the [Azure Open AI playground](https://oai.azure.com/portal/playground?WT.mc_id=academic-105485-koreyst) to evaluate which models best fit your needs in terms of capability and cost.
+<!-- - **Text generation**. Most models are trained on text generation and you have a large variety of choices from GPT-3.5 to GPT-4. They come at different costs with GPT-4 being the most expensive. It's worth looking into the [Azure Open AI playground](https://oai.azure.com/portal/playground?WT.mc_id=academic-105485-koreyst) to evaluate which models best fit your needs in terms of capability and cost. -->
+- **텍스트 생성**. 대부분의 모델은 텍스트 생성을 위해 학습되고, GPT-3.5에서 GPT-4에 이르기까지 넓은 선택지가 있습니다. GPT-4와 같은 모델들은 비쌉니다. [Azure Open AI playground](https://oai.azure.com/portal/playground)를 사용해서 어떤 모델이 가장 당신의 상황(성능/비용)에 적합한지 평가해보세요.
 
-Selecting a model means you get some basic capabilities, that might not be enough however. Often you have company specific data that you somehow need to tell the LLM about. There are a few different choices on how to approach that, more on that in the upcoming sections.
+
+<!-- Selecting a model means you get some basic capabilities, that might not be enough however. Often you have company specific data that you somehow need to tell the LLM about. There are a few different choices on how to approach that, more on that in the upcoming sections. -->
+기본적인 기능을 가진 모델을 선택할 수도 있지만, 아마 충분하진 않을겁니다. 종종 사내 특정 데이터를 LLM에 사용할 일도 있을겁니다. 이런 경우에는 약간 다른 방법들이 있긴 하지만, 다음 장에서 이야기해 봅시다.
 
 ### Foundation Models versus LLMs
+
 
 The term Foundation Model was [coined by Stanford researchers](https://arxiv.org/abs/2108.07258?WT.mc_id=academic-105485-koreyst) and defined as an AI model that follows some criteria, such as:
 
